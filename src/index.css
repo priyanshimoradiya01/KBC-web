@@ -78,3 +78,17 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .swiper-button-next{
   display: none;
 }
+
+
+.slide-in {
+  animation: slide-in 0.5s forwards;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

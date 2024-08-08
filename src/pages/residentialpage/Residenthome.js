@@ -20,7 +20,7 @@ function Residenthome() {
         <div  onClick={handleClick}>
           <Breadcrumbs sx={{display:"flex",justifyContent:"center"}}>
             <Link underline="hover" fontWeight={700} href="/material-ui/getting-started/installation/" sx={{color:"#FFFF",}} > Home </Link>
-            <Link underline="none" fontWeight={700} href="/material-ui/getting-started/installation/" sx={{color:"#C39C49",cursor:"default"}} > Residential Properties </Link>
+            <Link underline="none" fontWeight={700} href="/material-ui/getting-started/installation/" sx={{color:"#C39C49",cursor:"default"}} > Commercial Properties </Link>
           </Breadcrumbs>
         </div>
       </Box>

@@ -6,7 +6,9 @@ import devlopingimg from '../../assets/images/Home/devlopingimg.png';
 import icon1 from '../../assets/images/Home/icon1.png'
 import icon3 from '../../assets/images/Home/icon3.png'
 import icon2 from '../../assets/images/Home/icon2.png'
+import { useNavigate } from 'react-router-dom';
 function Homesection3() {
+  const navigate = useNavigate()
   const card2 = [
     {
       icon: icon1,
@@ -82,7 +84,7 @@ function Homesection3() {
                       color: "#c29943",
                     }
                   }
-                }}>  More About Us</Typography>
+                }} onClick={()=>navigate("/about")}>  More About Us</Typography>
               </Box>
 
             </Box>
